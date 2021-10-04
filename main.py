@@ -1,17 +1,9 @@
-def eggs():
-    print("eggs")
-def spam():
-    print("spam")
+import random
 
-def spamNeggs(s, e):
-    s()
-    e()
+class Dice():
+    """TO DO: 
+            ADD IN A DICE CLASS
+    """
+numSides = int(input("Enter the number of sides on a die!"))
 
-
-
-if __name__ == "__main__":
-    eggs()
-    spam()
-    spamNeggs()
-
-
+print("Your dice has " + numSides + " sides!")
